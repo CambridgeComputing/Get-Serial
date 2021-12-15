@@ -38,6 +38,6 @@ Get serial number for all computers in an Active Directory OU:
     Server02   HH6SB261
 
 # TODO List
-- [] Add `Test-Connection` before each connection attempt to reduce waiting time and error output
-- [] Add parameter to output CSV without having to pipe the putput manually
-- [] Output all computers' names in OU with a placeholder for serial if unreachable
+- [ ] Add `Test-Connection` before each connection attempt to reduce waiting time and error output
+- [ ] Add parameter to output CSV without having to pipe the putput manually
+- [ ] Output all computers' names in OU with a placeholder for serial if unreachable
