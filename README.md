@@ -2,7 +2,7 @@
 Fetches serial numbers from remote machines given hostnames or OU path.
 
 ## Functions
-There are two functions avaialble in this module.
+There are two functions available in this module.
 
 The first, Get-Serial, is intended to fetch the serial number or remote computers. The parameter -ComputerName can be one name, or
 a comma-separated list of names. The object returned contains the computer name and its serial number.
@@ -39,5 +39,5 @@ Get serial number for all computers in an Active Directory OU:
 
 # TODO List
 - [ ] Add `Test-Connection` before each connection attempt to reduce waiting time and error output
-- [ ] Add parameter to output CSV without having to pipe the putput manually
+- [ ] Add parameter to output CSV without having to pipe the output manually
 - [ ] Output all computers' names in OU with a placeholder for serial if unreachable
